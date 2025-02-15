@@ -36,3 +36,15 @@ C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\DocuAI.Co
 C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\DocuAI.Infrastructure.dll
 C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\DocuAI.Core.pdb
 C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\DocuAI.Infrastructure.pdb
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.Bedrock.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.BedrockRuntime.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.S3.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.SQS.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.API\bin\Debug\net8.0\AWSSDK.BedrockAgentRuntime.dll

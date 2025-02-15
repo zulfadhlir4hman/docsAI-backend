@@ -1,0 +1,51 @@
+
+using Amazon.S3;
+using Amazon.S3.Model;
+using DocuAI.Infrastructure.AWS.Configuration;
+using Microsoft.Extensions.Options;
+
+namespace DocuAI.Infrastructure.AWS.SDK
+{
+    public interface IS3Service
+    {
+        Task<Stream> GetObjectStreamAsync(string key);
+        Task<string> GetObjectTextAsync(string key);
+    }
+
+    public class S3Service : IS3Service
+    {
+        private readonly IAmazonS3 _s3Client;
+        private readonly AwsSettings _awsSettings;
+
+        public S3Service(IAmazonS3 s3Client, IOptions<AwsSettings> awsSettings)
+        {
+            _s3Client = s3Client;
+            _awsSettings = awsSettings.Value;
+        }
+
+        /// <summary>
+        /// Retrieves the object stream from S3 for the configured bucket.
+        /// </summary>
+        public async Task<Stream> GetObjectStreamAsync(string key)
+        {
+            var request = new GetObjectRequest
+            {
+                BucketName = _awsSettings.S3Bucket,
+                Key = key
+            };
+
+            var response = await _s3Client.GetObjectAsync(request);
+            return response.ResponseStream;
+        }
+
+        /// <summary>
+        /// Reads the S3 object's content as text.
+        /// </summary>
+        public async Task<string> GetObjectTextAsync(string key)
+        {
+            using var stream = await GetObjectStreamAsync(key);
+            using var reader = new StreamReader(stream);
+            return await reader.ReadToEndAsync();
+        }
+    }
+}

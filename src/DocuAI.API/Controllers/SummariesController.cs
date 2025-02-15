@@ -7,10 +7,10 @@ namespace DocuAI.API.Controllers
     [Route("api/[controller]")]
     public class SummariesController : ControllerBase
     {
-        private readonly GenerateSummaryCommandHandler _handler;
+        private readonly GenerateSummarySyncCommandHandler _handler;
 
         // The handler is injected via DI
-        public SummariesController(GenerateSummaryCommandHandler handler)
+        public SummariesController(GenerateSummarySyncCommandHandler handler)
         {
             _handler = handler;
         }

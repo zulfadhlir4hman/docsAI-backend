@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocuAI.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f0dd7ebda1d071272e8172befe65ca323fc4be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ae2e77c485004cb30f232106d46a7a153f0ce87")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocuAI.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocuAI.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

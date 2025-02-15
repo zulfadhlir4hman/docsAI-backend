@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "v0nrZLxKRdbb3Qre4h6KfASJNMj6Qlc+Xa58G/XlSon2jMdW7DYUz3hnv6+t9OKw0BE0iJQUeML/2/psUEnwJg==",
+  "dgSpecHash": "o8NfWMzTDUU=",
   "success": true,
   "projectFilePath": "C:\\Users\\SD-NB1\\Desktop\\docsAI-backend\\src\\DocuAI.Infrastructure\\DocuAI.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.bedrock\\3.7.413.17\\awssdk.bedrock.3.7.413.17.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.bedrockagentruntime\\3.7.419.1\\awssdk.bedrockagentruntime.3.7.419.1.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.bedrockruntime\\3.7.412.13\\awssdk.bedrockruntime.3.7.412.13.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.core\\3.7.402.1\\awssdk.core.3.7.402.1.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.400\\awssdk.extensions.netcore.setup.3.7.400.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.s3\\3.7.415\\awssdk.s3.3.7.415.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\awssdk.sqs\\3.7.400.95\\awssdk.sqs.3.7.400.95.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.2\\microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.2\\microsoft.extensions.configuration.binder.9.0.2.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\microsoft.extensions.options\\9.0.2\\microsoft.extensions.options.9.0.2.nupkg.sha512",
+    "C:\\Users\\SD-NB1\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.2\\microsoft.extensions.primitives.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
