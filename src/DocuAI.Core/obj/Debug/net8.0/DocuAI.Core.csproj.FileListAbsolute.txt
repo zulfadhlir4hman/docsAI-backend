@@ -1,0 +1,12 @@
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\bin\Debug\net8.0\DocuAI.Core.deps.json
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\bin\Debug\net8.0\DocuAI.Core.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\bin\Debug\net8.0\DocuAI.Core.pdb
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.AssemblyInfoInputs.cache
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.AssemblyInfo.cs
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.csproj.CoreCompileInputs.cache
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.sourcelink.json
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\refint\DocuAI.Core.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\DocuAI.Core.pdb
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Core\obj\Debug\net8.0\ref\DocuAI.Core.dll

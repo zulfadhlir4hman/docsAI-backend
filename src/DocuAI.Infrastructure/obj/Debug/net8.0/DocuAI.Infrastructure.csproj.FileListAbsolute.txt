@@ -1,0 +1,16 @@
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\bin\Debug\net8.0\DocuAI.Infrastructure.deps.json
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\bin\Debug\net8.0\DocuAI.Infrastructure.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\bin\Debug\net8.0\DocuAI.Infrastructure.pdb
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.AssemblyInfo.cs
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.sourcelink.json
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\refint\DocuAI.Infrastructure.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.pdb
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\ref\DocuAI.Infrastructure.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\bin\Debug\net8.0\DocuAI.Core.dll
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\bin\Debug\net8.0\DocuAI.Core.pdb
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\SD-NB1\Desktop\docsAI-backend\src\DocuAI.Infrastructure\obj\Debug\net8.0\DocuAI.I.518DC721.Up2Date
