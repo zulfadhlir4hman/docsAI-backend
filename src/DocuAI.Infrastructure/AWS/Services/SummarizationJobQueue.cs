@@ -30,7 +30,7 @@ namespace DocuAI.Infrastructure.AWS.Services
             var payload = JsonSerializer.Serialize(command);
             var sendRequest = new SendMessageRequest
             {
-                QueueUrl = _awsSettings.SummarizationQueueUrl, // Ensure you add this property in AwsSettings.
+                QueueUrl = "sqs url", // Ensure you add this property in AwsSettings.
                 MessageBody = payload
             };
 

@@ -1,4 +1,6 @@
 
+using Amazon;
+using Amazon.Runtime;
 using Amazon.S3;
 using Amazon.S3.Model;
 using DocuAI.Infrastructure.AWS.Configuration;
@@ -21,6 +23,24 @@ namespace DocuAI.Infrastructure.AWS.SDK
         {
             _s3Client = s3Client;
             _awsSettings = awsSettings.Value;
+
+            _awsSettings = awsSettings.Value ?? throw new ArgumentNullException(nameof(awsSettings));
+
+
+
+            var config = new AmazonS3Config
+            {
+                RegionEndpoint = RegionEndpoint.GetBySystemName(_awsSettings.Region)
+            };
+
+            //_s3Client = new AmazonS3Client(credentials, config);
+            var credentials = new SessionAWSCredentials(
+                         _awsSettings.AccessKeyId,      // Get from settings
+                        _awsSettings.SecretAccessKey,  // Get from settings
+                        _awsSettings.SessionToken      // Get from settings
+                    );
+            _s3Client = new AmazonS3Client(credentials, config);
+
         }
 
         /// <summary>

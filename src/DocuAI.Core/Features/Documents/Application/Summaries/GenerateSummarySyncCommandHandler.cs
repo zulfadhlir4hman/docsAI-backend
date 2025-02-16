@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using DocuAI.Core.Gateway.AWS;  // Contains IDocumentService
-       // Contains IBedrockService
+                                // Contains IBedrockService
 
 namespace DocuAI.Core.Features.Documents.Application.Summaries
 {
@@ -22,7 +22,7 @@ namespace DocuAI.Core.Features.Documents.Application.Summaries
         public async Task<string> Handle(GenerateSummaryCommand command)
         {
             // Retrieve the document text from S3.
-            var documentText = await _documentService.GetDocumentTextAsync(command.DocumentId.ToString());
+            var documentText = await _documentService.GetDocumentTextAsync(command.DocumentId);
             // Immediately generate and return the summary.
             return await _bedrockService.GenerateSummaryAsync(documentText);
         }

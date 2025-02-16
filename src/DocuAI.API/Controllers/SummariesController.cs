@@ -9,16 +9,15 @@ namespace DocuAI.API.Controllers
     {
         private readonly GenerateSummarySyncCommandHandler _handler;
 
-        // The handler is injected via DI
         public SummariesController(GenerateSummarySyncCommandHandler handler)
         {
             _handler = handler;
         }
 
         [HttpPost("generate")]
-        public IActionResult GenerateSummary([FromBody] GenerateSummaryCommand command)
+        public async Task<IActionResult> GenerateSummary([FromBody] GenerateSummaryCommand command)
         {
-            var summary = _handler.Handle(command);
+            var summary = await _handler.Handle(command);
             return Ok(summary);
         }
     }
