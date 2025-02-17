@@ -5,27 +5,26 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\SD-NB1\.nuget\packages\;D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Progress\ToolboxNuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\SD-NB1\.nuget\packages\" />
-    <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
-    <SourceRoot Include="C:\Program Files (x86)\Progress\ToolboxNuGetPackages\" />
-    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+    <SourceRoot Include="C:\Users\zulfadhli.rahman\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.4.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.4.0\build\Swashbuckle.AspNetCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\SD-NB1\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\SD-NB1\.nuget\packages\awssdk.core\3.7.402.1</PkgAWSSDK_Core>
-    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">C:\Users\SD-NB1\.nuget\packages\awssdk.sqs\3.7.400.95</PkgAWSSDK_SQS>
-    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\SD-NB1\.nuget\packages\awssdk.s3\3.7.415</PkgAWSSDK_S3>
-    <PkgAWSSDK_BedrockRuntime Condition=" '$(PkgAWSSDK_BedrockRuntime)' == '' ">C:\Users\SD-NB1\.nuget\packages\awssdk.bedrockruntime\3.7.412.13</PkgAWSSDK_BedrockRuntime>
-    <PkgAWSSDK_BedrockAgentRuntime Condition=" '$(PkgAWSSDK_BedrockAgentRuntime)' == '' ">C:\Users\SD-NB1\.nuget\packages\awssdk.bedrockagentruntime\3.7.419.1</PkgAWSSDK_BedrockAgentRuntime>
-    <PkgAWSSDK_Bedrock Condition=" '$(PkgAWSSDK_Bedrock)' == '' ">C:\Users\SD-NB1\.nuget\packages\awssdk.bedrock\3.7.413.17</PkgAWSSDK_Bedrock>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.core\3.7.402.1</PkgAWSSDK_Core>
+    <PkgAWSSDK_SQS Condition=" '$(PkgAWSSDK_SQS)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.sqs\3.7.400.95</PkgAWSSDK_SQS>
+    <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.securitytoken\3.7.401.44</PkgAWSSDK_SecurityToken>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.s3\3.7.415</PkgAWSSDK_S3>
+    <PkgAWSSDK_BedrockRuntime Condition=" '$(PkgAWSSDK_BedrockRuntime)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.bedrockruntime\3.7.412.13</PkgAWSSDK_BedrockRuntime>
+    <PkgAWSSDK_BedrockAgentRuntime Condition=" '$(PkgAWSSDK_BedrockAgentRuntime)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.bedrockagentruntime\3.7.419.1</PkgAWSSDK_BedrockAgentRuntime>
+    <PkgAWSSDK_Bedrock Condition=" '$(PkgAWSSDK_Bedrock)' == '' ">C:\Users\zulfadhli.rahman\.nuget\packages\awssdk.bedrock\3.7.413.17</PkgAWSSDK_Bedrock>
   </PropertyGroup>
 </Project>

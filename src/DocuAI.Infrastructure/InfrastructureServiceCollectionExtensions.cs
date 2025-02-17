@@ -6,6 +6,7 @@ using Amazon.Runtime.CredentialManagement;
 using Amazon.S3;
 using Amazon.SQS;
 using DocuAI.Core.Gateway.AWS;
+using DocuAI.Infrastructure.Aspose;
 using DocuAI.Infrastructure.AWS.Configuration;
 using DocuAI.Infrastructure.AWS.SDK;
 using DocuAI.Infrastructure.AWS.Services;
@@ -26,19 +27,7 @@ public static class InfrastructureServiceCollectionExtensions
 
         // 2. Configure AWS settings
         services.Configure<AwsSettings>(options => configuration.GetSection("AWS").Bind(options));
-
-        // 3. Configure AWS options with explicit region
-        var awsOptions = new AWSOptions
-        {
-            Region = RegionEndpoint.GetBySystemName(awsSection["Region"] ?? "ap-southeast-1"),
-            Credentials = new BasicAWSCredentials("ASIA4MI2JPRI6F2PSCVD", " NLaIGa84CToKwMMxEfZvj/oZARNujY4EtuPaDGxd"),
-        };
-
-
-
-
-        services.AddDefaultAWSOptions(awsOptions);
-
+        
         // 4. Register AWS service clients
         services.AddAWSService<IAmazonS3>();
         services.AddAWSService<IAmazonSQS>();
@@ -57,6 +46,9 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddScoped<ISummarizationJobQueue, SummarizationJobQueue>();
         services.AddScoped<AwsBedrockClient>();
         services.AddScoped<IBedrockService, BedrockAIService>();
+
+        services.AddScoped<IDocumentProcessor, DocumentProcessor>();
+        services.AddScoped<IDocumentQueueService, DocumentQueueService>();
 
         return services;
     }

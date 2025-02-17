@@ -12,6 +12,8 @@ namespace DocuAI.Infrastructure.AWS.SDK
     {
         Task<Stream> GetObjectStreamAsync(string key);
         Task<string> GetObjectTextAsync(string key);
+        Task UploadFileAsync(string filePath, string key);
+        Task<List<S3Bucket>> ListBucketsAsync();
     }
 
     public class S3Service : IS3Service
@@ -25,8 +27,6 @@ namespace DocuAI.Infrastructure.AWS.SDK
             _awsSettings = awsSettings.Value;
 
             _awsSettings = awsSettings.Value ?? throw new ArgumentNullException(nameof(awsSettings));
-
-
 
             var config = new AmazonS3Config
             {
@@ -67,5 +67,39 @@ namespace DocuAI.Infrastructure.AWS.SDK
             using var reader = new StreamReader(stream);
             return await reader.ReadToEndAsync();
         }
+
+        public async Task UploadFileAsync(string filePath, string key)
+        {
+            try
+            {
+                var putRequest = new PutObjectRequest
+                {
+                    BucketName = _awsSettings.S3Bucket,
+                    Key = key,
+                    FilePath = filePath
+                };
+
+                await _s3Client.PutObjectAsync(putRequest);
+            }
+            catch (AmazonS3Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public async Task<List<S3Bucket>> ListBucketsAsync()
+        {
+            try
+            {
+                var response = await _s3Client.ListBucketsAsync();
+                return response.Buckets;
+            }
+            catch (AmazonS3Exception ex)
+            {
+                throw;
+            }
+        }
+
+        
     }
 }

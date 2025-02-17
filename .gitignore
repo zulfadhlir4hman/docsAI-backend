@@ -1,2 +1,8 @@
 /src/DocuAI.API/appsettings.json
 /src/DocuAI.API/bin/Debug/net8.0/appsettings.json
+/src/DocuAI.API/bin
+/src/DocuAI.API/obj/Debug
+/src/DocuAI.Core/bin
+/src/DocuAI.Core/obj/Debug
+/src/DocuAI.Infrastructure/bin
+/src/DocuAI.Infrastructure/obj/Debug
